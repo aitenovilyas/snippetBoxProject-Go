@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  snippetbox:
+    build: .
+    ports:
+      - 5433:5433
+      - 4000:4000
